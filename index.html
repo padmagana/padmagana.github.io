@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>FCC Portfolio</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic|Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  
+  <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <!-- Fixed navbar -->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#heading">Padmashree Ganacharya</a>
+    </div>
+    <div id="navigation">
+
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <a href="#heading">Home</a>
+        </li>
+        <li>
+          <a href="#portfolio">Portfolio</a>
+        </li>
+        <li>
+          <a href="#about-me">About</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- end #navigation-->
+
+<!-- Used new id and class to avoid hamburger menu -->
+<nav id="mobile-nav" class="navbar navbar-default navbar-fixed-top">
+  <div class="container nav-mobile">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#heading">Padmashree Ganacharya</a>
+    </div>
+    <div>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <a href="#heading"><i class="fa fa-home"></i></a>
+        </li>
+        <li>
+          <a href="#portfolio"><i class="fa fa-file-photo-o"></i></a>
+        </li>
+        <li>
+          <a href="#about-me"><i class="fa fa-book"></i></a>
+        </li>
+        <li>
+          <a href="#contact"><i class="fa fa-envelope"></i></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- #mobile-nav -->
+
+<!--using header resizes this section so it doesn't take up so much room on smaller screens -->
+<header>
+  <div class="jumbotron text-center" id="heading">
+    <div class="container intro-text">
+
+      <h1>Hey!</h1>
+      <hr class="separator separator-light">
+      <h2>
+          COFFEE & CODE     
+        </h2>
+    </div>
+  </div>
+</header>
+
+<section id="portfolio" name="portfolio">
+  <div class="container">
+    <div class="row text-center">
+      <h1>Portfolio</h1>
+      <hr class="separator separator-dark">
+    </div>
+  <div class="row ">
+      <div class="col-md-4 portfolio-item">
+        <figure class="effect-portfolio">
+          <img class="img-responsive" src="http://adventureblog.nationalgeographic.com/files/2009/06/6a00e55031d3a3883401156fe8d84e970c1.jpeg" alt="Anne Frank" align="middle">
+          <figcaption>
+            <h2>Anne Frank
+            </h2>
+            <p>A German-born diarist.
+            </p>
+            <a href="https://codepen.io/Padma-/full/evKKXY" target='_blank'>View more</a>
+          </figcaption>
+        </figure>
+          </div>
+    
+     <div class="col-md-4 portfolio-item">
+        <figure class="effect-portfolio">
+          <img class="img-responsive" src="https://3.bp.blogspot.com/-0X__afMPRdE/U8wNRzDGNdI/AAAAAAAAAYA/BPx196yRQvo/s1600/ARP-OSI-Model.jpeg">
+          <figcaption>
+            <h2>Network Layer</h2>
+            <p>Layer 3 in OSI model
+            </p>
+            <a href="https://codepen.io/Padma-/full/ayNjWO/" target='_blank'>View more</a>
+          </figcaption>
+        </figure>
+      </div>
+     
+    </section>
+    
+<section id="about-me">
+  <div class="container">
+    <div class="row text-center">
+      <h1>I'm Padmashree</h1>
+      <hr class="separator separator-dark">
+    </div>
+    <div class="row text-center">
+        <p>
+          I’m a <span class="special">coder and a learner to new things</span>!<br/>
+I'm a front-end developer.<br/>  
+New things fascinate me to learn more & I'm always eager to do that.<br/>
+I like implementing my creative ideas using designs.<br/>
+Technically also interested in Database & Networking.
+        </p>
+      </div>
+
+      
+    </div>
+    <!-- end row -->
+  </div>
+  <!-- end container -->
+</section>
+<!-- end about-me section -->
+
+  
+  <section id="contact">
+  <div class="container">
+    <h1 class='text-center'>Get in Touch</h1>
+     <hr class="separator separator-dark">
+    
+    <section id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <form name="sentMessage" id="contactForm" novalidate="">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Your Name" id="name" required="" data-validation-required-message="Please enter your name." aria-invalid="false">
+                  <p class="help-block text-danger"></p>
+                </div>
+                
+                <div class="form-group">
+                  <input type="email" class="form-control" placeholder="Your Email *" id="email" required="" data-validation-required-message="Please enter your email address.">
+                  <p class="help-block text-danger"></p>
+                </div>
+                
+                <div class="form-group">
+                  <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required="" data-validation-required-message="Please enter your phone number.">
+                  <p class="help-block text-danger"></p>
+                </div>
+                     </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <textarea class="form-control" placeholder="Your Message *" id="message" required="" data-validation-required-message="Please enter a message." aria-invalid="false"></textarea>
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="clearfix"></div>
+              <div class="col-lg-12 text-center">
+                <div id="success"></div>
+                <button type="submit" class="btn btn-xl">Send Message</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section> 
+    <hr class="separator separator-dark">
+    <ul class="social text-center">
+      <li>
+        <a id="linked-in" href='https://www.linkedin.com/in/padmashree-ganacharya-b6858b137/' target="_blank"><i class="fa fa-linkedin"></i></a>
+      </li>
+      <li>
+        <a href="https://www.freecodecamp.org/padma-gana" target="_blank" id="free-code-camp"><i class="fa fa-fire"></i></a>
+      </li>
+    </ul>
+  </div>
+</section>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
